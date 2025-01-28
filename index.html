@@ -17,12 +17,12 @@
 <body class="roboto-font">
     <header>
         <!-- NavBar Section -->
-        <nav class="md:flex justify-between items-center px-10 py-3 mb-3 bg-slate-200">
+        <nav class="md:flex justify-between items-center px-10 py-3 mb-3">
             <div>
                 <img class="w-90 " src="./icons/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex gap-8 text-lg">
+                <ul class="flex gap-8 text-xs lg:text-lg">
                     <a href=""><li>Home</li></a>
                     <a href=""><li>Product</li></a>
                     <a href=""><li>About Us</li></a>
@@ -32,7 +32,7 @@
         </nav>
         <!-- Banner Section -->
         <div class="lg:flex justify-between items-center px-10 py-3 mb-10 bg-orange-50">
-            <div class="w-2/4">
+            <div class="w-full lg:w-1/2">
                 <h1 class="text-7xl uppercase mb-2"><span class="text-orange-400">Be the Penguins</span> <span class="text-slate-800">of Winter</span> </h1>
                 <p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a href=""><button class="px-5 py-2 bg-lime-600 rounded-xl text-white"> <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
@@ -40,15 +40,15 @@
                 </svg>
                 Buy Now</button></a>
             </div>
-            <div>
+            <div class="w-full lg:w-2/5">
                 <img src="./images/model.png" alt="">
             </div>
         </div>
     </header>
     <main>
         <!-- Woman Jacket Section -->
-        <section class="px-10 py-3 mb-3 bg-slate-500">
-            <h2 class="text-3xl font-semibold uppercase">Womens' Jacket</h2>
+        <section class="px-10 py-5 mb-10">
+            <h2 class="text-3xl font-semibold uppercase mb-10">Womens' Jacket</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <!-- Jacket-1 -->
                 <div class="p-5 space-y-3 rounded-3xl bg-white drop-shadow-lg">
@@ -92,8 +92,8 @@
             </div>
         </section>
         <!-- Man Jacket Section -->
-        <section class="px-10 py-3 mb-3 bg-slate-500">
-            <h2 class="text-3xl font-semibold uppercase">Mens' Jacket</h2>
+        <section class="px-10 py-5 mb-10">
+            <h2 class="text-3xl font-semibold uppercase mb-10">Mens' Jacket</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <!-- Jacket-1 -->
                 <div class="p-5 space-y-3 rounded-3xl bg-white drop-shadow-lg">
@@ -136,12 +136,33 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <div>
-                    
+        <!-- Features Section -->
+        <section class="px-10 py-5 mb-10">
+            <div class="flex flex-col-reverse lg:flex-row justify-between items-center gap-12">
+                <div class="flex flex-col gap-8">
+                    <div class="flex justify-center items-center gap-6 bg-white shadow-lg px-10 py-3 mb-3 rounded-xl">
+                        <div class="w-1/2 lg:w-1/4"><img src="./icons/house.png" alt=""></div>
+                        <div>
+                            <h3 class="text-2xl font-bold">Find the Perfect Fit</h3>
+                            <p class="text-sm">Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center gap-6 bg-white shadow-lg px-10 py-3 mb-3 rounded-xl">
+                        <div class="w-1/2 lg:w-1/4"><img src="./icons/box.png" alt=""></div>
+                        <div>
+                            <h3 class="text-2xl font-bold">Free Exchanges</h3>
+                            <p class="text-sm">One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center gap-6 bg-white shadow-lg px-10 py-3 mb-3 rounded-xl">
+                        <div class="w-1/2 lg:w-1/4"><img src="./icons/question.png" alt=""></div>
+                        <div>
+                            <h3 class="text-2xl font-bold">Contact Our Seller</h3>
+                            <p class="text-sm">They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <div class="w-3/4 ">
                     <img src="./images/shopping.png" alt="">
                 </div>
             </div>
